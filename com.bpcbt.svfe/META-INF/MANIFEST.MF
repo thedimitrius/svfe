@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SVFE easy compilation
+Bundle-SymbolicName: com.bpcbt.svfe;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.bpcbt.svfe.SVFEActivator
+Bundle-Vendor: BPC Banking Technologies
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.8.101",
+ org.eclipse.swt,
+ org.eclipse.ui.navigator;bundle-version="3.5.300",
+ org.eclipse.core.commands,
+ org.eclipse.ui.ide;bundle-version="3.9.1",
+ org.eclipse.jsch.core;bundle-version="1.1.400",
+ org.eclipse.jsch.ui;bundle-version="1.1.400",
+ org.eclipse.ui.console;bundle-version="3.5.200",
+ org.eclipse.ui.workbench,
+ com.jcraft.jsch;bundle-version="0.1.46"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ swing2swt.jar
+Import-Package: com.jcraft.jsch
